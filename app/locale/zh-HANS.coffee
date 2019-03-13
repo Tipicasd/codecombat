@@ -22,7 +22,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     accessible_to: "提供给"
     everyone: "每个人"
     democratizing: "我们的核心理念是普及编程学习。每个人都应该有机会学习编程。"
-    forgot_learning: "我觉得他们甚至忘了自己在学东西。" # {change}
+    forgot_learning: "我觉得他们甚至忘了自己在学东西。"
     wanted_to_do: "写代码是我一直想做的事情。我从没想过我能在学校学习它。"
     builds_concepts_up: "我喜欢CodeCombat创建的概念。这个游戏很容易理解，在计算的过程中可以产生乐趣。"
     why_games: "为什么通过游戏来学习编程很重要？"
@@ -33,13 +33,13 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     kind_of_struggle: "这种奋斗能为学习提供动力"
     motivating: "富有激励性"
     not_tedious: "而不单调乏味。"
-    gaming_is_good: "研究表明游戏有益儿童大脑。（这是真的！）"
+    gaming_is_good: "研究表明游戏有益儿童大脑。（真材实料！）"###Change###
     game_based: "当将基于游戏的学习方式与传统教学方式"
     compared: "比较"
     conventional: "时，区别毋庸置疑：游戏能帮助学生记住知识，集中精力，以及"
     perform_at_higher_level: "取得更高成就"
     feedback: "游戏同时提供实时反馈，使得学生调整他们的解决方法，并且从整体理解概念，而不局限于“正确”或者“错误”的答案。"
-    real_game: "一个真正的游戏，用真正的代码来玩耍。"
+    real_game: "一个真正的游戏，用真正的代码来游玩。"
     great_game: "一个伟大的游戏不仅仅是勋章和成就。它包括了玩家的旅程，设计良好的关卡，以及用帮助和信心迎接挑战的能力。"
     agency: "CodeCombat是一款这样的游戏：它通过我们的完善的代码引擎，给玩家提供帮助和信心，使得初学者和高级学生都可以编写合适、有效的代码。"
     request_demo_title: "让你的学生今天就行动起来！"
@@ -50,10 +50,10 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     setup_a_class: "配置班级"
     have_an_account: "已有账号？"
     logged_in_as: "您现在的登录身份："
-    computer_science: "适合全年龄段的计算机科学课程" # {change}
+    computer_science: "适合全年龄段的计算机科学课程"
     ffa: "对所有学生免费"
     coming_soon: "即将推出！"
-    courses_available_in: "课程可用如下语言：JavaScript，Python，还有Java（即将推出！）" # {change}
+    courses_available_in: "课程可用如下语言：JavaScript，Python，还有Java（即将推出！）"
     boast: "以难解的谜题为豪，它们复杂到可以吸引游戏玩家和程序员。"
     winning: "RPG游戏和编程作业的完美结合，使得教育充满乐趣。"
     run_class: "管理计算机科学课程的所有东西都在这里，无需相关背景。"
@@ -83,8 +83,8 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     my_classrooms: "我的班级"
     my_courses: "我的课程"
     careers: "招聘"
-    facebook: "Facebook"
-    twitter: "Twitter"
+    facebook: "面簿"#changed#
+    twitter: "推特"#changed#
     create_a_class: "创建一个班级"
     other: "其他"
     learn_to_code: "学会编程！"
@@ -104,7 +104,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
 
   modal:
     close: "关闭"
-    okay: "好的"
+    okay: "好吧"#changed#
 
   not_found:
     page_not_found: "找不到网页"
@@ -228,11 +228,11 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     sign_up: "注册"
     email_or_username: "邮箱或用户名"
     log_in: "登录"
-    logging_in: "正在登录"
-    log_out: "登出"
+    logging_in: "登录中~"#changed#
+    log_out: "注销"#changed#
     forgot_password: "忘记密码?"
     finishing: "完成..."
-    sign_in_with_facebook: "Facebook账号登录"
+    sign_in_with_facebook: "面簿账号登录"#changed#
     sign_in_with_gplus: " Google+ 账号登录"
     signup_switch: "是否创建新账户?"
 
@@ -247,16 +247,16 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     creating: "账户创建中……"
     sign_up: "注册"
     log_in: "登录"
-    required: "在做这件事情之前您必须先注册。"
-    login_switch: "已经注册过账户?"
+    required: "注册以使用此功能。"#changed#
+    login_switch: "已有账号?"#changed#
     optional: "选填"
     connected_gplus_header: "成功连接 Google+ ！"
     connected_gplus_p: "完成注册后即可使用您的 Google+ 账号登陆。"
-    connected_facebook_header: "成功连接 Facebook ！"
-    connected_facebook_p: "完成注册后即可使用您的 Facebook 账号登陆。"
+    connected_facebook_header: "成功连接面簿！"#changed#
+    connected_facebook_p: "完成注册后即可使用您的面簿账号登陆。"#changed#
     hey_students: "同学，请输入老师提供的班级码。"
     birthday: "生日"
-    parent_email_blurb: "我知道你坐不住准备学编程啦！&mdash; 我们也很兴奋！你的家长会收到一封邮件，上面写着为你注册账号要注意的事情。如果有问题就发邮件到 {{email_link}} 吧。"
+    parent_email_blurb: "我们知道你忍不住要开始学习编程啦！&mdash; 我们也很兴奋！你家长会收到一封邮件，上面写着注册账号的一些注意事项。还有其他问题？发邮件到 {{email_link}} 吧。"#changed#
     classroom_not_found: "班级代码不正确。请检查是否打错或者寻求老师的帮助。"
     checking: "检查中..."
     account_exists: "这个邮箱已被使用："
@@ -292,7 +292,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     parent_email_error: "发邮件时出了点问题。请检查邮箱地址并再试一次。"
     parent_email_sent: "我们已经向你的家长发邮件了哦。让你的家长检查一下收件箱吧。"
     account_created: "账号已创建！"
-    confirm_student_blurb: "记下信息避免忘记。你的老师也可随时帮你重置密码。"
+    confirm_student_blurb: "记下用户名和密码以避免忘记。你的老师也可随时帮你重置密码。"#changed#
     confirm_individual_blurb: "记下这些信息，等会可能用得上。我们已在您的邮箱发送了验证邮件，验证后可用其重置密码！"
     write_this_down: "记下来："
     start_playing: "开玩！"
@@ -336,7 +336,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     continue: "继续" # When used as an action verb, like "Continue forward"
     next: "下一个"
     default_code: "默认代码"
-    loading: "读取中……"
+    loading: "加载中……"#changed#
     overview: "概览"
     processing: "进行中……"
     solution: "解法"
@@ -387,7 +387,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     undo_shortcut: "(Ctrl+Z)"
     redo_prefix: "重做"
     redo_shortcut: "(Ctrl+Shift+Z)"
-    play_preview: "当前关卡预览"
+    play_preview: "预览当前关卡"#changed#
     result: "结果"
     results: "结果"
     description: "描述"
@@ -406,8 +406,8 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     win: "胜利"
     loss: "失败"
     tie: "平局"
-    easy: "容易"
-    medium: "中等"
+    easy: "简单"
+    medium: "普通"#Changed#
     hard: "困难"
     player: "玩家"
     player_level: "等级" # Like player level 5, not like level: Dungeons of Kithgard
@@ -457,9 +457,9 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     next_level: "下一个关卡"
     combo_challenge: "组合挑战"
     concept_challenge: "概念挑战"
-    challenge_unlocked: "解锁挑战"
-    combo_challenge_unlocked: "组合挑战解锁"
-    concept_challenge_unlocked: "概念挑战解锁"
+    challenge_unlocked: "挑战已解锁！" #changed#
+    combo_challenge_unlocked: "组合挑战已解锁"
+    concept_challenge_unlocked: "概念挑战已解锁"
     concept_challenge_complete: "概念挑战完成!"
     combo_challenge_complete: "组合挑战完成!"
 #    combo_challenge_complete_body: "Great job, it looks like you're well on your way to understanding __concept__!"
@@ -472,8 +472,8 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     languages: "语言"
     programming_language: "编程语言"
     show_menu: "显示游戏菜单"
-    home: "主页" # Not used any more, will be removed soon.
-    level: "关卡" # Like "Level: Dungeons of Kithgard"
+    home: "主页" # Not used anymore, will be removed soon.
+    level: "章节" # Like "Level: Dungeons of Kithgard" #in chinese, a "level"(关卡）and a level(which includes more than one of the previous "level"(关卡) is completely different. We tend to call the second "level" a "chapter", thus 章节。
     skip: "跳过"
     game_menu: "游戏菜单"
     restart: "重新开始"
@@ -500,7 +500,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     victory_title_suffix: " 完成"
     victory_sign_up: "保存进度"
     victory_sign_up_poke: "想保存您的代码？创建一个免费账户吧！"
-    victory_rate_the_level: "这个关卡有多好玩？"
+    victory_rate_the_level: "好玩吗？"
     victory_return_to_ladder: "返回"
     victory_saving_progress: "保存进度"
     victory_go_home: "返回主页"
@@ -545,9 +545,9 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     tip_toggle_play: "用 Ctrl+P 来暂停或继续"
     tip_scrub_shortcut: "用 Ctrl+[ 和 Ctrl+] 来倒退和快进。"
     tip_guide_exists: "点击页面上方的指南, 可以获得更多有用信息。"
-    tip_open_source: "「CodeCombat」是100%开源的！" # {change}
+    tip_open_source: "「CodeCombat」是100%开源的！"
     tip_tell_friends: "喜欢Codecombat？那就赶快把它安利给朋友！"
-    tip_beta_launch: "CodeCombat开始于2013的10月份。"
+    tip_beta_launch: "2013的10月份,CodeCombat开始运营。"#changed#
     tip_think_solution: "思考如何解决, 而不是思考问题。"
     tip_theory_practice: "在理论上，理论和实践之间是没有区别的。但在实践上，它们是有区别的。 - Yogi Berra"
     tip_error_free: "有两种方式可以写出没有错误的程序；但是只有第三种方式是有效的。 - Alan Perlis"
@@ -1615,7 +1615,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     educator_faq: "常见问题"
     educator_faq_desc: "在您的学校或教室使用 CodeCombat 的常见问题。"
     teacher_getting_started: "老师入门指南"
-    teacher_getting_started_desc: "第一次使用 CodeCombat ？下载此老师入门指南开始设置您的账号，创建第一个课堂并邀请学生参加第一门课程。"
+    teacher_getting_started_desc: "第一次使用 CodeCombat ？下载此老师入门指南开始设置您的账号，创建第一个教室并邀请学生参加第一门课程。"#changed#
     student_getting_started: "学生快速入门指南"
     student_getting_started_desc: "您可以在讲解 CodeCombat 之前先将此入门指南发布给学生，以便他们熟悉代码编辑器。本指南可用于 Python 和 JavaScript 语言教室。"
 #    ap_cs_principles: "AP Computer Science Principles"
@@ -1853,7 +1853,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     scribe_summary: "好代码需要好文档，来自全世界数百万的玩家一起编写，编辑以及提高文档的可读性"
     diplomat_title: "外交官"
     diplomat_title_description: "(翻译人员)"
-    diplomat_summary: "CodeCombat已经被我们的外交官们翻译成45多种世界语言。在翻译的同时体验翻译的乐趣吧！"
+    diplomat_summary: "CodeCombat已经被我们的外交官们翻译成45多种世界语言。在翻译的同时体验翻译的乐趣吧！"##外交官2410,Tipicasd：真香
     ambassador_title: "使节"
     ambassador_title_description: "(用户支持人员)"
     ambassador_summary: "指导我们亲爱的论坛用户并为他们的问题引出一个正确的方向。我们的使节将CodeCombat带到这个世界上。"
@@ -1874,16 +1874,16 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     dungeon: "地牢"
     indoor: "室内"
     desert: "沙漠"
-    grassy: "草地"
+    grassy: "草原"#changed#
     mountain: "高山"
     glacier: "冰川"
-    small: "小的"
-    large: "大的"
+    small: "小型"#changed#
+    large: "大型"#changed#
     fork_title: "派生新版本"
     fork_creating: "正在执行派生..."
     generate_terrain: "生成地形"
     more: "更多"
-    wiki: "维基"
+    wiki: "百科"
     live_chat: "在线聊天"
     thang_main: "主菜单"
     thang_spritesheets: "贴图集"
@@ -1950,10 +1950,10 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     edit_article_title: "编辑提示"
 
   polls:
-    priority: "优先次序"
+    priority: "优先级"#changed#
 
   contribute:
-    page_title: "贡献"
+    page_title: "贡献"###！！！为社会主义贴砖添瓦！！！###
     intro_blurb: "CodeCombat是完全开源的软件！上千个玩家帮助了我们建设了这整个游戏，就是您今天看到的一样！快加入我们然后为CodeCombat打开新的章节，将世界带领进入编程世代前进吧！" # {change}
     alert_account_message_intro: "您好！"
     alert_account_message: "想要订阅邮件？ 您必须先登录"
@@ -2057,7 +2057,7 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
     tutorial_skip: "跳过教材"
     tutorial_not_sure: "不知道怎么玩?"
     tutorial_play_first: "先玩一次教程。"
-    simple_ai: "简单电脑"
+    simple_ai: "简易人工智能"#或者是“人工智障”#
     warmup: "热身"
     friends_playing: "联机"
     log_in_for_friends: "登陆然后跟朋友一起玩！"
@@ -2695,3 +2695,8 @@ module.exports = nativeDescription: "简体中文", englishDescription: "Chinese
 #    first_name: "First Name"
 #    last_initial: "Last Initial"
 #    teacher_email: "Teacher's email address"
+
+#Update March 13 2019: All "facebooks"s translated to it's Cinese translation. Some grammar problems fixed. 
+#Reminder to fellow translaters: Pls, pls read 新华字典 at least 2 times to understand the grammar, in case you are not a expert in this language. The Chinese version is for those students who live in China and they may not understant the website when you are using english grammar for the site.
+#Follow @uspae_communicatist07_65 on Instagram
+#*Plays Internationale
